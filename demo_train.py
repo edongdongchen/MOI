@@ -11,6 +11,20 @@ from physics.mri import get_group_mri_ops
 from physics.inpainting import get_group_inpainting_ops, get_group_inpainting_mnist_ops
 from physics.cs import get_group_cs_ops
 
+
+"""
+PyTorch implementation of the below paper:
+
+@article{tachella2022sampling,
+title={Unsupervised Learning From Incomplete Measurements for Inverse Problems},
+author={Tachella, Juli{\'a}n and Chen, Dongdong and Davies, Mike},
+journal={arXiv preprint arXiv:2201.12151},
+year={2022}}
+}
+
+26/May/2022: by Dongdong Chen (d.chen@ed.ac.uk)
+"""
+
 parser = argparse.ArgumentParser(description='MOI')
 
 parser.add_argument('--gpu', default=0, type=int, help='GPU id to use.')
