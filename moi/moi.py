@@ -9,6 +9,10 @@ from utils.metric import cal_psnr
 from utils.nn import adjust_learning_rate
 from utils.logger import AverageMeter, ProgressMeter, get_timestamp
 
+"""
+moi paper: https://arxiv.org/pdf/2201.12151.pdf
+"""
+
 class MOI(object):
     def __init__(self, args):
         super(MOI, self).__init__()
