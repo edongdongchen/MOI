@@ -7,6 +7,11 @@
 
 [Julián Tachella](https://tachella.github.io/), [Dongdong Chen](https://dongdongchen.com), [Mike E. Davies](https://www.research.ed.ac.uk/en/persons/michael-davies).
 
+CNRS, France; The University of Edinburgh, UK
+
+In NeurIPS 2022
+
+
 
 ## Run the code
 
