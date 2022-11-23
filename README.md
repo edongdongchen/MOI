@@ -42,9 +42,9 @@ In NeurIPS 2022
 ## Citation
 If you use this code for your research, please cite our papers.
   ```
-  @article{tachella2022sampling,
+  @inproceedings{tachella2021sampling,
   title={Unsupervised Learning From Incomplete Measurements for Inverse Problems},
   author={Tachella, Juli{\'a}n and Chen, Dongdong and Davies, Mike},
-  journal={arXiv preprint arXiv:2201.12151},
+  booktitle={Proceedings of the 36th Conference on Neural Information Processing Systems},
   year={2022}}
   ```
